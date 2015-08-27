@@ -498,7 +498,6 @@ function twentyfourteen_wp_title( $title, $sep ) {
 	return $title;
 }
 add_filter( 'wp_title', 'twentyfourteen_wp_title', 10, 2 );
-
 // Implement Custom Header features.
 require get_template_directory() . '/inc/custom-header.php';
 
